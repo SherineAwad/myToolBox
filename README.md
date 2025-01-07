@@ -3,6 +3,8 @@
 
 ## Plot Genes 
 
+
+```r
      Rscipt plot_gene.R yourObject.rds genesFile 
 
 
