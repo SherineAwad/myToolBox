@@ -34,7 +34,7 @@ genes  <- readLines(myfile)
 genes
 for (gene in genes)
 {
-plot <- FeaturePlot(myObject , features =gene, reduction = "umap", cols = c("lightgrey", "red"), pt.size = 0.1, order =TRUE)
+plot <- FeaturePlot(myObject , features =gene, reduction = "umap", cols = c("lightgrey", "red"), pt.size = 0.4, order =TRUE)
 print(plot)
 }
 dev.off()
